@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  BookATest
 //
-//  Created by Anamika on 6/22/18.
+//  Created by Rasika on 6/22/18.
 //  Copyright © 2018 Rasika. All rights reserved.
 //
 
@@ -22,6 +22,28 @@ class HomeViewController: UIViewController {
     }
     
 
+    @IBAction func profileTapped(sender:AnyObject){
+        
+        let loginVC = RegisterationViewController(nibName: "RegisterationViewController", bundle: nil)
+        loginVC.isProfile = true
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+    }
+    
+    @IBAction func bookingTapped(sender:AnyObject){
+        
+        let loginVC = BookingTestViewController(nibName: "BookingTestViewController", bundle: nil)
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+    }
+    
+    @IBAction func orderHistoryTapped(sender:AnyObject){
+        
+        let loginVC = OrderHistoryViewController(nibName: "OrderHistoryViewController", bundle: nil)
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

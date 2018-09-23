@@ -2,7 +2,7 @@
 //  Profile.swift
 //  BookATest
 //
-//  Created by Anamika on 6/24/18.
+//  Created by Rasika on 6/24/18.
 //  Copyright © 2018 Rasika. All rights reserved.
 //
 

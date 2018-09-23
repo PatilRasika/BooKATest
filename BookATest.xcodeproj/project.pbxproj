@@ -8,22 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		E9B824D820DD3555009DDF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B824D720DD3555009DDF19 /* AppDelegate.swift */; };
-		E9B824DA20DD3555009DDF19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B824D920DD3555009DDF19 /* ViewController.swift */; };
-		E9B824DD20DD3555009DDF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B824DB20DD3555009DDF19 /* Main.storyboard */; };
 		E9B824E020DD3555009DDF19 /* BookATest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9B824DE20DD3555009DDF19 /* BookATest.xcdatamodeld */; };
 		E9B824E220DD3555009DDF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B824E120DD3555009DDF19 /* Assets.xcassets */; };
 		E9B824E520DD3555009DDF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B824E320DD3555009DDF19 /* LaunchScreen.storyboard */; };
+		E9B824FA20DD56FE009DDF19 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B824F820DD56FE009DDF19 /* HomeViewController.swift */; };
+		E9B824FB20DD56FE009DDF19 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B824F920DD56FE009DDF19 /* HomeViewController.xib */; };
+		E9B8252820DE18FB009DDF19 /* RegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8252620DE18FB009DDF19 /* RegisterationViewController.swift */; };
+		E9B8252920DE18FB009DDF19 /* RegisterationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B8252720DE18FB009DDF19 /* RegisterationViewController.xib */; };
+		E9B8252C20DE1B98009DDF19 /* BookingTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8252A20DE1B98009DDF19 /* BookingTestViewController.swift */; };
+		E9B8252D20DE1B98009DDF19 /* BookingTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B8252B20DE1B98009DDF19 /* BookingTestViewController.xib */; };
+		E9B8253420DE1F43009DDF19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8253220DE1F43009DDF19 /* LoginViewController.swift */; };
+		E9B8253520DE1F43009DDF19 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B8253320DE1F43009DDF19 /* LoginViewController.xib */; };
+		E9B8253C20DE2ABD009DDF19 /* OrderTableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8253A20DE2ABD009DDF19 /* OrderTableCellTableViewCell.swift */; };
+		E9B8253D20DE2ABD009DDF19 /* OrderTableCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B8253B20DE2ABD009DDF19 /* OrderTableCellTableViewCell.xib */; };
+		E9B8254020DE343C009DDF19 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8253E20DE343C009DDF19 /* OrderHistoryViewController.swift */; };
+		E9B8254120DE343C009DDF19 /* OrderHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B8253F20DE343C009DDF19 /* OrderHistoryViewController.xib */; };
+		E9B8254320DFA95F009DDF19 /* BaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8254220DFA95F009DDF19 /* BaseTabViewController.swift */; };
+		E9B8256720DFC801009DDF19 /* OrderDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8256520DFC801009DDF19 /* OrderDetail+CoreDataProperties.swift */; };
+		E9B8256820DFC801009DDF19 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8256620DFC801009DDF19 /* OrderDetail.swift */; };
+		E9B8256B20DFE68C009DDF19 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8256920DFE68C009DDF19 /* Profile+CoreDataProperties.swift */; };
+		E9B8256C20DFE68C009DDF19 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8256A20DFE68C009DDF19 /* Profile.swift */; };
+		E9B8256E20E0ED1A009DDF19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8256D20E0ED1A009DDF19 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9B824D420DD3555009DDF19 /* BookATest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookATest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B824D720DD3555009DDF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9B824D920DD3555009DDF19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9B824DC20DD3555009DDF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B824DF20DD3555009DDF19 /* BookATest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookATest.xcdatamodel; sourceTree = "<group>"; };
 		E9B824E120DD3555009DDF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B824E420DD3555009DDF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9B824E620DD3555009DDF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B824F820DD56FE009DDF19 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E9B824F920DD56FE009DDF19 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E9B824FC20DD5B4C009DDF19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9B8252620DE18FB009DDF19 /* RegisterationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterationViewController.swift; sourceTree = "<group>"; };
+		E9B8252720DE18FB009DDF19 /* RegisterationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterationViewController.xib; sourceTree = "<group>"; };
+		E9B8252A20DE1B98009DDF19 /* BookingTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingTestViewController.swift; sourceTree = "<group>"; };
+		E9B8252B20DE1B98009DDF19 /* BookingTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingTestViewController.xib; sourceTree = "<group>"; };
+		E9B8253220DE1F43009DDF19 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9B8253320DE1F43009DDF19 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E9B8253A20DE2ABD009DDF19 /* OrderTableCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableCellTableViewCell.swift; sourceTree = "<group>"; };
+		E9B8253B20DE2ABD009DDF19 /* OrderTableCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableCellTableViewCell.xib; sourceTree = "<group>"; };
+		E9B8253E20DE343C009DDF19 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		E9B8253F20DE343C009DDF19 /* OrderHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderHistoryViewController.xib; sourceTree = "<group>"; };
+		E9B8254220DFA95F009DDF19 /* BaseTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabViewController.swift; sourceTree = "<group>"; };
+		E9B8256520DFC801009DDF19 /* OrderDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OrderDetail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E9B8256620DFC801009DDF19 /* OrderDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		E9B8256920DFE68C009DDF19 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E9B8256A20DFE68C009DDF19 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		E9B8256D20E0ED1A009DDF19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = BookATest/Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +73,9 @@
 		E9B824CB20DD3555009DDF19 = {
 			isa = PBXGroup;
 			children = (
+				E9B824FC20DD5B4C009DDF19 /* CoreData.framework */,
+				E9B8257120E16B58009DDF19 /* Common */,
+				E9B8257020E16B2A009DDF19 /* Coredata */,
 				E9B824D620DD3555009DDF19 /* BookATest */,
 				E9B824D520DD3555009DDF19 /* Products */,
 			);
@@ -57,14 +93,44 @@
 			isa = PBXGroup;
 			children = (
 				E9B824D720DD3555009DDF19 /* AppDelegate.swift */,
-				E9B824D920DD3555009DDF19 /* ViewController.swift */,
-				E9B824DB20DD3555009DDF19 /* Main.storyboard */,
+				E9B8253220DE1F43009DDF19 /* LoginViewController.swift */,
+				E9B8253320DE1F43009DDF19 /* LoginViewController.xib */,
+				E9B824F820DD56FE009DDF19 /* HomeViewController.swift */,
+				E9B824F920DD56FE009DDF19 /* HomeViewController.xib */,
+				E9B8252620DE18FB009DDF19 /* RegisterationViewController.swift */,
+				E9B8252720DE18FB009DDF19 /* RegisterationViewController.xib */,
+				E9B8252A20DE1B98009DDF19 /* BookingTestViewController.swift */,
+				E9B8254220DFA95F009DDF19 /* BaseTabViewController.swift */,
+				E9B8252B20DE1B98009DDF19 /* BookingTestViewController.xib */,
+				E9B8253E20DE343C009DDF19 /* OrderHistoryViewController.swift */,
+				E9B8253F20DE343C009DDF19 /* OrderHistoryViewController.xib */,
+				E9B8253A20DE2ABD009DDF19 /* OrderTableCellTableViewCell.swift */,
+				E9B8253B20DE2ABD009DDF19 /* OrderTableCellTableViewCell.xib */,
 				E9B824E120DD3555009DDF19 /* Assets.xcassets */,
 				E9B824E320DD3555009DDF19 /* LaunchScreen.storyboard */,
 				E9B824E620DD3555009DDF19 /* Info.plist */,
 				E9B824DE20DD3555009DDF19 /* BookATest.xcdatamodeld */,
 			);
 			path = BookATest;
+			sourceTree = "<group>";
+		};
+		E9B8257020E16B2A009DDF19 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				E9B8256920DFE68C009DDF19 /* Profile+CoreDataProperties.swift */,
+				E9B8256A20DFE68C009DDF19 /* Profile.swift */,
+				E9B8256520DFC801009DDF19 /* OrderDetail+CoreDataProperties.swift */,
+				E9B8256620DFC801009DDF19 /* OrderDetail.swift */,
+			);
+			name = Coredata;
+			sourceTree = "<group>";
+		};
+		E9B8257120E16B58009DDF19 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E9B8256D20E0ED1A009DDF19 /* Constants.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +191,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B8253520DE1F43009DDF19 /* LoginViewController.xib in Resources */,
 				E9B824E520DD3555009DDF19 /* LaunchScreen.storyboard in Resources */,
+				E9B8252D20DE1B98009DDF19 /* BookingTestViewController.xib in Resources */,
 				E9B824E220DD3555009DDF19 /* Assets.xcassets in Resources */,
-				E9B824DD20DD3555009DDF19 /* Main.storyboard in Resources */,
+				E9B824FB20DD56FE009DDF19 /* HomeViewController.xib in Resources */,
+				E9B8252920DE18FB009DDF19 /* RegisterationViewController.xib in Resources */,
+				E9B8253D20DE2ABD009DDF19 /* OrderTableCellTableViewCell.xib in Resources */,
+				E9B8254120DE343C009DDF19 /* OrderHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +209,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B824DA20DD3555009DDF19 /* ViewController.swift in Sources */,
+				E9B8252820DE18FB009DDF19 /* RegisterationViewController.swift in Sources */,
+				E9B8256820DFC801009DDF19 /* OrderDetail.swift in Sources */,
+				E9B8253C20DE2ABD009DDF19 /* OrderTableCellTableViewCell.swift in Sources */,
+				E9B8256C20DFE68C009DDF19 /* Profile.swift in Sources */,
+				E9B8252C20DE1B98009DDF19 /* BookingTestViewController.swift in Sources */,
+				E9B8256720DFC801009DDF19 /* OrderDetail+CoreDataProperties.swift in Sources */,
+				E9B8254320DFA95F009DDF19 /* BaseTabViewController.swift in Sources */,
+				E9B8254020DE343C009DDF19 /* OrderHistoryViewController.swift in Sources */,
 				E9B824E020DD3555009DDF19 /* BookATest.xcdatamodeld in Sources */,
 				E9B824D820DD3555009DDF19 /* AppDelegate.swift in Sources */,
+				E9B824FA20DD56FE009DDF19 /* HomeViewController.swift in Sources */,
+				E9B8256E20E0ED1A009DDF19 /* Constants.swift in Sources */,
+				E9B8256B20DFE68C009DDF19 /* Profile+CoreDataProperties.swift in Sources */,
+				E9B8253420DE1F43009DDF19 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E9B824DB20DD3555009DDF19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9B824DC20DD3555009DDF19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9B824E320DD3555009DDF19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +364,7 @@
 				E9B824EB20DD3555009DDF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

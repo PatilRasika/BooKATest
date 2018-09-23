@@ -2,21 +2,27 @@
 //  AppDelegate.swift
 //  BookATest
 //
-//  Created by Anamika on 6/22/18.
+//  Created by Rasika on 6/22/18.
 //  Copyright © 2018 Rasika. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navController: UINavigationController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let vc = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        navController = UINavigationController(rootViewController: vc)
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
         return true
     }
 
@@ -82,6 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return coordinator
     }()
+    
 
     lazy var managedObjectContext: NSManagedObjectContext = {
         // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.) This property is optional since there are legitimate error conditions that could cause the creation of the context to fail.
